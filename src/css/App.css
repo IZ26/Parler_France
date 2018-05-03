@@ -1,0 +1,300 @@
+@media all and (max-width:720px) {
+    /**--------**/
+    /** Header **/
+    /**--------**/
+    .App-header{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .App-logo {
+      width: 25%;
+      margin: 10%;
+    }
+
+    /**-------**/
+    /** Title **/
+    /**------**/
+    .title{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    /**-------**/
+    /** Form **/
+    /**------**/
+    .input_item{
+        width: 70%;
+    }
+    .btn_submit{
+        width: 40%;
+        background: #252839;
+        color: #F2B632;
+        border: none;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-top: 20px;
+        margin-bottom: 100px;
+        padding-left: 0;
+        font-size: 12px;
+    }
+    /* Form search */
+    .search_word{
+        flex-direction: row;
+        margin-top: 20px;
+    }
+    .search_word input{
+        width: 90%;
+        padding-left: 10px;
+    }
+    .btn_search{
+        background: #252839;
+        border: none;
+        width: 15%;
+        height: 40px;
+        border-radius: 5px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Add Word Form */
+    .select_element {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .select_element div{
+        width: 70%;
+    }
+    .select_element select {
+        margin-top: 10px;
+        width: 70%;
+        border: 1px solid #677077;
+        border-radius: 5px;
+        height: 40px;
+        color: #252839;
+        background: none;
+        background-image: url(../img/arrow_down.svg);
+        background-size: 10px;
+        background-repeat: no-repeat;
+        background-position: 90%;
+        padding-left: 10px;
+        font-size: 10px;
+    }
+    .def_element{
+        margin-top: 10px;
+        width: 70%;
+    }
+
+    /* NavForm */
+    .nav-btn{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-form {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    .btn-login{
+        font-size: 15px;
+        color: #252839;
+        font-weight: 600;
+    }
+    .btn-inscription{
+        font-size: 15px;
+        color: #252839;
+        font-weight: 600;
+    }
+    /**--------**/
+    /** NavBar **/
+    /**--------**/
+    .navigation{
+        background: #252839;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        z-index: 1000;
+    }
+    .nav_item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .material-icons {
+        color: #F2B632;
+        font-size: 25px;
+    }
+
+    /**--------**/
+    /** Profil **/
+    /**--------**/
+    .profil{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .btn-logout{
+        color: #F2B632;
+    }
+    .profil_item{
+        border: 1px solid #677077;
+        width: 75%;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 5px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .profil_word{
+        border: 1px solid #677077;
+        width: 75%;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 15px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .profil_pic{
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+        background: #252839;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+    }
+    .profil_item p,
+    .profil_item button{
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+    .pic_icon{
+        font-size: 30px;
+    }
+    .word{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .word li{
+        padding: 0;
+        width: 85%;
+        border-right: none;
+        border-bottom: 1px solid #677077;
+        padding-bottom: 5px;
+        margin-top: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .word li:last-child{
+        border-bottom: none;
+    }
+    .waiting_word{
+        margin-bottom: 70px;
+    }
+    .arrow{
+        color: #252839;
+    }
+
+    /**-------------------**/
+    /** Waiting Word List **/
+    /**-------------------**/
+    .waiting_word_page{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .waiting_word_list{
+        border: 1px solid #677077;
+        width: 70%;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    /**------**/
+    /** Word **/
+    /**------**/
+    .word-page{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .word-title{
+        font-size: 25px;
+        margin-bottom: 10px;
+        font-weight: 600;
+    }
+    strong{
+        color: #F2B632;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .definition{
+        width: 80%;
+    }
+    .title_def{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .btn_edit{
+        background: #252839;
+        width: 10%;
+        height: 25px;
+        border: none;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .material-edit{
+        font-size: 15px;
+    }
+    .def_p{
+        color: #252839;
+        font-size: 12px;
+        margin-top: 30px;
+    }
+
+    /**-------**/
+    /** Popup **/
+    /**-------**/
+    .popup{
+        border: none;
+        border-radius: 10px;
+        text-align: center;
+        padding: 10px;
+        color: #252839;
+    }
+}
